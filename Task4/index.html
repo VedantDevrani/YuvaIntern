@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Accessible and performance optimized webpage demonstrating frontend best practices."
+    >
+
+    <meta
+        name="theme-color"
+        content="#2563eb"
+    >
+
+    <title>AccessibleWeb - Performance & Accessibility</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <!-- Skip navigation link for keyboard and screen-reader users -->
+
+    <a
+        class="skip-link"
+        href="#main-content"
+    >
+        Skip to main content
+    </a>
+
+
+    <!-- HEADER -->
+
+    <header class="site-header">
+
+        <div class="container header-content">
+
+            <a
+                href="#"
+                class="logo"
+                aria-label="AccessibleWeb home"
+            >
+                Accessible<span>Web</span>
+            </a>
+
+
+            <nav
+                class="main-navigation"
+                aria-label="Main navigation"
+            >
+
+                <ul>
+
+                    <li>
+                        <a href="#home">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#features">
+                            Features
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#accessibility">
+                            Accessibility
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main id="main-content">
+
+
+        <!-- HERO SECTION -->
+
+        <section
+            class="hero"
+            id="home"
+            aria-labelledby="hero-title"
+        >
+
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+
+                    <p class="eyebrow">
+                        PERFORMANCE + ACCESSIBILITY
+                    </p>
+
+                    <h1 id="hero-title">
+                        Faster websites.
+                        <span>Better experiences.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        A lightweight webpage designed with semantic
+                        HTML, accessible navigation, optimized CSS,
+                        and performance-focused development practices.
+                    </p>
+
+                    <div class="hero-actions">
+
+                        <a
+                            class="button primary-button"
+                            href="#features"
+                        >
+                            Explore Features
+                        </a>
+
+                        <a
+                            class="button secondary-button"
+                            href="#accessibility"
+                        >
+                            Accessibility
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    class="performance-card"
+                    aria-label="Performance summary"
+                >
+
+                    <div class="performance-header">
+
+                        <span
+                            class="status-dot"
+                            aria-hidden="true"
+                        ></span>
+
+                        Performance optimized
+
+                    </div>
+
+
+                    <div class="performance-score">
+
+                        <strong>
+                            95+
+                        </strong>
+
+                        <span>
+                            Performance Score
+                        </span>
+
+                    </div>
+
+
+                    <div class="performance-list">
+
+                        <div>
+                            <span>HTML</span>
+                            <strong>Semantic</strong>
+                        </div>
+
+                        <div>
+                            <span>CSS</span>
+                            <strong>Optimized</strong>
+                        </div>
+
+                        <div>
+                            <span>Images</span>
+                            <strong>Compressed</strong>
+                        </div>
+
+                        <div>
+                            <span>Accessibility</span>
+                            <strong>WCAG Ready</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FEATURES -->
+
+        <section
+            class="features"
+            id="features"
+            aria-labelledby="features-title"
+        >
+
+            <div class="container">
+
+                <header class="section-header">
+
+                    <p class="eyebrow">
+                        OPTIMIZATION
+                    </p>
+
+                    <h2 id="features-title">
+                        Built with best practices
+                    </h2>
+
+                    <p>
+                        The page uses several techniques to improve
+                        loading performance and accessibility.
+                    </p>
+
+                </header>
+
+
+                <div class="feature-grid">
+
+
+                    <article class="feature-card">
+
+                        <div
+                            class="feature-icon"
+                            aria-hidden="true"
+                        >
+                            ⚡
+                        </div>
+
+                        <h3>
+                            Lightweight Code
+                        </h3>
+
+                        <p>
+                            Clean HTML and CSS reduce unnecessary
+                            code and improve browser rendering.
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature-card">
+
+                        <div
+                            class="feature-icon"
+                            aria-hidden="true"
+                        >
+                            ♿
+                        </div>
+
+                        <h3>
+                            Accessible Design
+                        </h3>
+
+                        <p>
+                            Semantic elements, keyboard navigation,
+                            labels and sufficient contrast improve
+                            usability.
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature-card">
+
+                        <div
+                            class="feature-icon"
+                            aria-hidden="true"
+                        >
+                            📱
+                        </div>
+
+                        <h3>
+                            Responsive Layout
+                        </h3>
+
+                        <p>
+                            Flexible layouts allow the page to work
+                            across desktops, tablets and mobile devices.
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature-card">
+
+                        <div
+                            class="feature-icon"
+                            aria-hidden="true"
+                        >
+                            🔍
+                        </div>
+
+                        <h3>
+                            SEO Friendly
+                        </h3>
+
+                        <p>
+                            Proper headings, metadata and semantic
+                            HTML provide a better document structure.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ACCESSIBILITY SECTION -->
+
+        <section
+            class="accessibility"
+            id="accessibility"
+            aria-labelledby="accessibility-title"
+        >
+
+            <div class="container accessibility-grid">
+
+                <div>
+
+                    <p class="eyebrow">
+                        ACCESSIBILITY
+                    </p>
+
+                    <h2 id="accessibility-title">
+                        Designed for everyone.
+                    </h2>
+
+                    <p class="section-description">
+                        Accessibility is treated as part of the
+                        development process rather than an afterthought.
+                        The interface supports keyboard users,
+                        screen readers and users with visual limitations.
+                    </p>
+
+                </div>
+
+
+                <ul class="accessibility-list">
+
+                    <li>
+
+                        <span
+                            aria-hidden="true"
+                            class="check"
+                        >
+                            ✓
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                Keyboard Navigation
+                            </strong>
+
+                            <p>
+                                Interactive elements can be reached
+                                using the keyboard.
+                            </p>
+
+                        </div>
+
+                    </li>
+
+
+                    <li>
+
+                        <span
+                            aria-hidden="true"
+                            class="check"
+                        >
+                            ✓
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                Screen Reader Support
+                            </strong>
+
+                            <p>
+                                Semantic HTML and ARIA labels provide
+                                meaningful information to assistive
+                                technologies.
+                            </p>
+
+                        </div>
+
+                    </li>
+
+
+                    <li>
+
+                        <span
+                            aria-hidden="true"
+                            class="check"
+                        >
+                            ✓
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                Clear Focus States
+                            </strong>
+
+                            <p>
+                                Focused elements have visible outlines
+                                for keyboard users.
+                            </p>
+
+                        </div>
+
+                    </li>
+
+
+                    <li>
+
+                        <span
+                            aria-hidden="true"
+                            class="check"
+                        >
+                            ✓
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                Color Contrast
+                            </strong>
+
+                            <p>
+                                Text and interactive elements use
+                                strong contrast against their backgrounds.
+                            </p>
+
+                        </div>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </section>
+
+
+        <!-- PERFORMANCE SECTION -->
+
+        <section
+            class="performance"
+            aria-labelledby="performance-title"
+        >
+
+            <div class="container">
+
+                <header class="section-header">
+
+                    <p class="eyebrow">
+                        PERFORMANCE
+                    </p>
+
+                    <h2 id="performance-title">
+                        Less code. Less waiting.
+                    </h2>
+
+                    <p>
+                        Several frontend optimization techniques
+                        were considered while developing this page.
+                    </p>
+
+                </header>
+
+
+                <div class="metrics">
+
+                    <div class="metric">
+
+                        <strong>
+                            0
+                        </strong>
+
+                        <span>
+                            External JS Libraries
+                        </span>
+
+                    </div>
+
+
+                    <div class="metric">
+
+                        <strong>
+                            1
+                        </strong>
+
+                        <span>
+                            CSS File
+                        </span>
+
+                    </div>
+
+
+                    <div class="metric">
+
+                        <strong>
+                            0
+                        </strong>
+
+                        <span>
+                            Render Blocking Scripts
+                        </span>
+
+                    </div>
+
+
+                    <div class="metric">
+
+                        <strong>
+                            100%
+                        </strong>
+
+                        <span>
+                            Responsive Layout
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <section
+            class="contact"
+            id="contact"
+            aria-labelledby="contact-title"
+        >
+
+            <div class="container contact-container">
+
+                <header class="section-header">
+
+                    <p class="eyebrow">
+                        CONTACT
+                    </p>
+
+                    <h2 id="contact-title">
+                        Send a message
+                    </h2>
+
+                    <p>
+                        This accessible form uses properly associated
+                        labels and native HTML input validation.
+                    </p>
+
+                </header>
+
+
+                <form class="contact-form">
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="name">
+                                Full Name
+                            </label>
+
+                            <input
+                                id="name"
+                                name="name"
+                                type="text"
+                                autocomplete="name"
+                                required
+                                aria-required="true"
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="email">
+                                Email Address
+                            </label>
+
+                            <input
+                                id="email"
+                                name="email"
+                                type="email"
+                                autocomplete="email"
+                                required
+                                aria-required="true"
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="button primary-button"
+                    >
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+            <div>
+
+                <a
+                    href="#"
+                    class="logo"
+                    aria-label="AccessibleWeb home"
+                >
+                    Accessible<span>Web</span>
+                </a>
+
+                <p>
+                    Performance-focused and accessible frontend design.
+                </p>
+
+            </div>
+
+
+            <nav
+                aria-label="Footer navigation"
+            >
+
+                <ul>
+
+                    <li>
+                        <a href="#home">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#features">
+                            Features
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+
+        <div class="container copyright">
+
+            <p>
+                © 2026 AccessibleWeb. Task 4.
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
